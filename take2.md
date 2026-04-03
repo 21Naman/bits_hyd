@@ -32,41 +32,29 @@ We are building **Fractify** — a platform that allows MSMEs to list a fraction
 
 **Here is exactly how it works:**
 
-`MSME lists property` → `SPV is created` → `Full asset transferred to SPV` → `MSME retains Class A units` → `Class B units sold to retail investors` → `MSME pays rent on Class B %, distributed to unit holders`
+`MSME lists property` → `SPV is created` → `Full asset transferred to SPV` → `MSME retains minimum 26% units` → `Remaining units sold to retail investors` → `Rent collected → reserve fund topped up → remainder distributed to all unit holders proportionally`
 
-For example — a factory owner with a ₹10 crore industrial unit lists 30% on Fractify. That 30% is issued as Class B units inside an SPV, sold to retail investors. The factory owner continues to operate the factory, paying market rent on the 30% he's sold. That rent is distributed to Class B holders proportionally. The MSME gets immediate liquidity — without losing operational control.
-
----
-
-### Dual share class structure
-
-This is the architectural core of Fractify, and it mirrors how India's most successful founders have retained control post-funding.
-
-**Class A shares — held by the MSME**
-Carry full voting rights and operational control. The MSME decides how the property is used, managed, and maintained. The MSME must retain a minimum 26% Class A stake at all times — a blocking stake, ensuring they remain the accountable operator with genuine skin in the game. This protects investors and maintains the integrity of the asset.
-
-**Class B shares — held by retail investors**
-Carry economic rights only: proportional rental income and capital appreciation on exit. No operational voting rights. Clean, simple, and exactly what a retail investor wants — returns without governance burden.
-
-This dual-class model means an MSME can unlock significant capital — even selling a majority economic interest — while retaining full operational authority. Investors get yield. The MSME keeps control. Everyone wins.
+For example — a factory owner with a ₹10 crore industrial unit lists 40% on Fractify. Those 40% units are sold to retail investors. The factory owner continues to operate the factory, paying market rent on the full property into the SPV. A fixed portion of that rent — say 12% — is automatically set aside into a capital reserve fund. The remaining 88% is distributed to all unit holders proportionally, including the MSME on their 60% stake. Everyone earns. The asset is maintained. No complexity.
 
 ---
 
-### Capital improvements — who pays?
+### Capital reserve fund — handling improvements and maintenance
 
-This is the question every fractional ownership model must answer, and most don't.
+This is the question every fractional ownership model must answer: if the MSME wants to build on or improve the property, who pays?
 
-If the MSME wants to build on, renovate, or improve the property — they cannot be expected to fund 100% of a cost on an asset they may only economically own 70% of. Equally, investors cannot be forced to fund improvements they haven't approved.
+Our answer is simple — the SPV holds a **capital reserve fund**, automatically built from a fixed percentage of monthly rent collected. This fund covers routine maintenance and minor improvements without any vote or friction.
 
-Our governance framework handles this cleanly:
+For larger planned improvements that exceed the reserve:
 
 1. MSME proposes the improvement with an independent valuer's certification of expected value uplift
-2. All unit holders (Class A + Class B) vote proportionally
-3. If approved: each unit holder contributes their proportional share of the capital cost
-4. If a Class B holder declines to contribute: they face proportional dilution — their stake shrinks, the MSME's increases
+2. All unit holders vote proportionally
+3. Those who agree contribute their proportional share — and may gain proportional upside
+4. Those who decline are proportionally diluted — their stake reduces, the contributing holders' stakes increase
 5. All of this is enforced automatically via smart contract — no disputes, no ambiguity
 
-This is standard rights-call governance, adapted from REIT and company law — and it makes Fractify's model defensible in front of any regulator or investor.
+The key principle: **costs and benefits always follow ownership, proportionally.** No unit holder is ever asked to subsidise another's share of the asset. This is standard sinking-fund governance, used by REITs globally — we've simply automated it.
+
+One additional rule: the MSME must retain a minimum 26% stake at all times. This is not a separate share class — it is a listing covenant. It ensures the original operator always has genuine skin in the game and remains accountable for the asset's performance.
 
 ---
 
@@ -74,7 +62,7 @@ This is standard rights-call governance, adapted from REIT and company law — a
 
 Under the hood, every unit of ownership is a tokenised record on a permissioned blockchain — making ownership immutable, rent distribution automatic via smart contracts, and every transaction auditable in real time. No spreadsheets. No intermediaries. No disputes.
 
-Smart contracts handle rent collection and payout on a fixed cycle. Every ownership transfer, every payout, every valuation update, and every improvement vote is recorded permanently — visible to the investor, the MSME, and our compliance team. This isn't a marketing feature. It is the infrastructure that makes trust possible at scale.
+Smart contracts handle rent collection, reserve fund allocation, and investor payouts on a fixed cycle. Every ownership transfer, every payout, every improvement vote, and every reserve fund movement is recorded permanently — visible to the investor, the MSME, and our compliance team. This isn't a marketing feature. It is the infrastructure that makes trust possible at scale.
 
 ---
 
@@ -84,7 +72,7 @@ Smart contracts handle rent collection and payout on a fixed cycle. Every owners
 - Clear, unencumbered title deed
 - Minimum asset value of ₹1 crore — enabling pooling into SEBI-compliant SM REIT schemes of ₹50 crore+
 - Revenue-generating or already tenanted property
-- MSME must retain a minimum 26% Class A (voting) stake
+- MSME must retain a minimum 26% stake — a listing covenant, not a share class
 - No pending litigation or regulatory disputes
 
 ---
@@ -103,13 +91,13 @@ Nobody is going to the **supply side** — the MSME that already owns the asset 
 
 Every competitor starts with a property and finds investors. We start with an MSME owner and create a two-sided market.
 
-**For the MSME seller:** partial liquidity without losing control. A dual share class means they can unlock substantial capital while retaining operational authority. No distressed sale. No collateral loan. No more choosing between survival and ownership.
+**For the MSME:** partial liquidity without losing control. Sell up to 74% of the asset economically while retaining operational authority and a guaranteed stake. No distressed sale. No collateral loan. No more choosing between survival and ownership.
 
-**For the retail investor:** entry into commercial real estate with low ticket sizes, rental income from day one, and capital appreciation — an asset class previously accessible only to HNIs and institutions. Class B shares are clean economic instruments with no governance burden.
+**For the retail investor:** entry into commercial real estate with low ticket sizes, rental income from day one, and capital appreciation — an asset class previously accessible only to HNIs and institutions. A built-in reserve fund means the asset is always maintained — no surprise calls for capital.
 
-**For trust:** unlike unregulated FOPs of the past, we operate within the SEBI SM REIT framework — mandatory disclosures, listed liquidity, and grievance redressal. Blockchain infrastructure makes ownership and payouts transparent, tamper-proof, and verifiable by anyone, at any time. And our smart-contract-governed improvement process means no co-ownership dispute ever ends up in court.
+**For trust:** unlike unregulated FOPs of the past, we operate within the SEBI SM REIT framework — mandatory disclosures, listed liquidity, and grievance redressal. Blockchain infrastructure makes ownership, payouts, and reserve fund movements transparent, tamper-proof, and verifiable by anyone, at any time.
 
-Three things working together — SEBI compliance, dual-class SPV structure, and blockchain infrastructure — that no competitor has combined for the MSME segment.
+Three things working together — SEBI compliance, reserve-fund SPV governance, and blockchain infrastructure — that no competitor has built for the MSME segment.
 
 ---
 
@@ -119,10 +107,10 @@ Three things working together — SEBI compliance, dual-class SPV structure, and
 Annual SaaS-style fee from MSMEs to list and manage their asset on Fractify. Recurring, predictable revenue — the MSME pays to access liquidity.
 
 **2. AUM management fee**
-A small percentage of assets under management per scheme — aligned with the SEBI SM REIT model used by Property Share and hBits. Scales directly with platform growth.
+A small percentage of assets under management per scheme — aligned with the SEBI SM REIT model. Scales directly with platform growth.
 
 **3. SPV structuring & compliance fee**
-One-time fee for SPV formation, dual-class unit issuance, independent valuation, and regulatory filing. Analogous to IPO underwriting — charged per listing.
+One-time fee for SPV formation, unit issuance, independent valuation, and regulatory filing. Analogous to IPO underwriting — charged per listing.
 
 *Note on transaction fees: We are benchmarking against the SEBI model, where the regulator charges registration and annual fees rather than per-trade commissions. Keeping investor-side costs low builds trust and drives adoption — which grows our AUM fee base over time.*
 
@@ -132,7 +120,7 @@ One-time fee for SPV formation, dual-class unit issuance, independent valuation,
 
 India's MSMEs have ₹25 trillion in frozen capital sitting in real estate they cannot access.
 
-We are building the infrastructure to unlock it — one fractional unit at a time. Fractify is not just a product. It is a new financial primitive for India's real estate and MSME ecosystem: regulated like SEBI, structured through dual-class SPVs, and secured by blockchain.
+We are building the infrastructure to unlock it — one fractional unit at a time. Fractify is not just a product. It is a new financial primitive for India's real estate and MSME ecosystem: regulated like SEBI, governed by a smart-contract reserve fund, and secured by blockchain.
 
 **Thank you. We'd love your questions.**
 
